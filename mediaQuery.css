@@ -1,0 +1,93 @@
+@media (max-width: 820px) {
+    .popupDetails {
+        gap: 0px;
+    }
+
+    .close {
+        right: 43%;
+    }
+}
+
+@media (max-width: 620px) {
+    .mediaNoneHidden {
+        display: none;
+    }
+
+    .mediaHidden {
+        display:flex
+    }
+
+    .popupDetails {
+        flex-direction: column;
+    }
+
+    .arrows {
+        margin-top: 20px;
+        width: 80px;
+    }
+
+    .mediaHidden img {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .tab-content svg {
+        margin: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        width: 130px;
+    }
+}
+
+@media (max-width: 400px) {
+    .popup-content {
+        max-width: 300px;
+    }
+
+    .tab-content svg {
+        margin: 0;
+    }
+
+    .close {
+        right: 35%;
+    }
+
+    .tab-content-main {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .tab-content-second {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .tab-content-stats {
+        margin-bottom: 0;
+    }
+
+    .arrows {
+        margin-top: 10px;
+        width: 40px;
+    }
+
+    .close {
+        right: 40%;
+        top: 2%;
+        font-size: 18px;
+    }
+
+    .pokeImg {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo {
+        width: 100px;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="icon" type="image/png" href="./img/logo.svg">
+
+    <title>Document</title>
+</head>
+<body onload="renderPokemon()">
+    <header>
+        <a href="index.html"><img src="./img/logo.svg" class="logo"></a>
+        <input type="text" placeholder="Search..." id="searchPokemon" onkeydown="searchPokemon()" class="inputSearch">
+    </header>
+
+    <div id="content" class="pokedex">
+
+    </div>
+
+    <div class="loadMore">
+        <button id="loadMoreButton" onclick="loadMore()">Mehr Anzeigen</button>
+    </div> 
+
+    <div id="pokemonPopup" class="hidden">
+        <div class="popup">
+            <div>
+                <span class="close" onclick="closePopup()">Close</span>
+                <div class="popupDetails" id="popupDetails"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="#content">Zum Anfang der Seite</a>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/renderHTML.js"></script>
+    <script src="./js/getColor.js"></script>
+</body>
+</html>
